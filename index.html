@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./favicon.svg" />
+  <title>Bruno | Portfólio </title>
+  <link rel="stylesheet" href="estilos/style.css" />
+  <script src="https://kit.fontawesome.com/e1006ca32c.js" crossorigin="anonymous"></script>
+</head>
+<body class="escuro">
+
+  <header>
+    <nav>
+      <span class="logo">Bruno Staab &lt; / &gt;</span>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#tema" class="link" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="sobre" class="hero">
+      <img src="./imagens/imagem.jpeg" alt="Foto de Bruno" class="foto-perfil" />
+      <div class="hero-texto">
+        <h1>Olá, eu sou <strong>Bruno</strong></h1>
+        <p>
+          Iniciando na área de desenvolvimento Front-end, atualmente estudando
+          HTML5, CSS3, JavaScript e Git/GitHub. Gosto de transformar ideias em
+          páginas funcionais e estou construindo meu portfólio à medida que
+          aprendo. Vamos conversar?
+        </p>
+        <div class="botoes">
+          <a href="https://github.com/BrunoMrc" target="_blank" class="botao">GitHub</a>
+          <a href="#contato" class="botao botao-secundario">Contato</a>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="habilidades" class="habilidades">
+      <h2>Minhas habilidades</h2>
+      <p class="subtitulo">
+        Porcentagens definidas conforme meu nível atual de estudo em cada tecnologia.
+        Você pode ajustar os valores no arquivo <code>script.js</code>.
+      </p>
+      <div id="lista-habilidades" class="lista-habilidades">
+        
+      </div>
+    </section>
+
+    
+    <section id="projetos" class="projetos">
+      <h2>Meus projetos</h2>
+      <div id="lista-projetos" class="lista-projetos">
+       
+      </div>
+    </section>
+
+   
+    <section id="contato" class="contato">
+      <h2>Contato</h2>
+      <p>Ficou interessado no meu trabalho? Fale comigo por um desses canais:</p>
+      <div class="botoes">
+        <a href="https://github.com/BrunoMrc" target="_blank" class="botao">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" class="botao botao-secundario">LinkedIn</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Feito por Bruno &mdash; <span id="ano-atual"></span></p>
+  </footer>
+
+  <script src="./scripts/script.js"></script>
+</body>
+</html>
