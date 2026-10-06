@@ -5,8 +5,6 @@ Portfólio pessoal de desenvolvimento Front-end, com apresentação, habilidades
 
 🔗 **[Ver projeto ao vivo](https://brunomrc.github.io/projeto-meu-portifolio)**
 
-![Captura de ecrã do portfólio](./imagens/captura-portfolio.png)
-
 💻 Tecnologias
 
 - HTML5
